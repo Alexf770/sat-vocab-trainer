@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Vocab Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Title of the Website --> 
+    <h1 id="title">SAT Vocab Trainer</h1>
+
+    <!-- Score tracker Section --> 
+    <div class="scoreTracker">
+        <h3>Score tracker</h3>
+
+        <p>
+            Correct: <span id="correctCount">0</span>
+        </p>
+
+        <p>
+            Still learning: <span id="learningCount">0</span>
+        </p>
+
+        <p>
+            Not Attempted: <span id="notAttemptedCount">0</span>
+        </p>
+    </div>
+
+    <!-- Card Section -->
+    <div class="card">
+
+        <!-- Timer -->
+        <h2>
+            Time left:
+            <span id="timer">15</span>
+        </h2>
+
+        <!--Definition -->
+        <h2>Definition</h2>
+        <p id="definition"></p>
+        
+        <!-- Example sentence -->
+        <h2>Sentence</h2>
+        <p id="sentence"></p>
+
+        <!-- Input box -->
+        <input type="text" id="answerInput" placeholder="Type the SAT word">
+
+        <br><br>
+
+        <!-- Submit button -->
+        <button id="submitButton">
+            Submit
+        </button>
+
+        <!-- Next Button -->
+        <button id="nextButton">
+            Next Word
+        </button>
+
+        <!-- Review button -->
+        <button id="reviewButton">
+            Review
+        </button>
+
+        <!-- Shuffle Button -->
+        <button id="shuffleButton">
+            Shuffle Words
+        </button>
+
+        <!-- Feedback Message -->
+        <p id="result"></p>
+
+        <!-- Review words display -->
+        <div id="reviewArea"></div>
+    </div>
+   
+    <script src="script.js"></script>
+
+</body>
+
+</html>
