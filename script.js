@@ -191,6 +191,8 @@ function startTimer() {
             words[currentIndex].status =
                 "learning";
 
+            words[currentIndex].attempts++;
+
             submitted = true;
 
             updateScoreDisplay();
@@ -209,6 +211,8 @@ document.getElementById("submitButton")
 
     submitted = true;
     clearInterval(timerInterval);
+    
+    words[currentIndex].attempts++;
 
     const userAnswer =
         answerInput.value.trim().toLowerCase();
@@ -224,6 +228,8 @@ document.getElementById("submitButton")
 
         words[currentIndex].status =
             "correct";
+
+        words[currentIndex].correctAnswers++;
 
     } 
     

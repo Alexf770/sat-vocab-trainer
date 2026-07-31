@@ -13,7 +13,11 @@ const words = [
             "valued"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
+
     },
 
     {
@@ -29,7 +33,10 @@ const words = [
             "accelerator"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -44,7 +51,10 @@ const words = [
             "making light of"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -60,7 +70,10 @@ const words = [
             "restriction"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -76,7 +89,10 @@ const words = [
             "separation"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -92,7 +108,10 @@ const words = [
             "abide"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -108,7 +127,10 @@ const words = [
             "favor"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -124,7 +146,10 @@ const words = [
             "mention"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -140,7 +165,10 @@ const words = [
             "doubt"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -156,7 +184,10 @@ const words = [
             "alike"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -172,7 +203,10 @@ const words = [
             "tale"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -188,7 +222,10 @@ const words = [
             "fearful"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -204,7 +241,10 @@ const words = [
             "subjective"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -220,7 +260,10 @@ const words = [
             "contend"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -236,7 +279,10 @@ const words = [
             "preconception"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -252,7 +298,10 @@ const words = [
             "directness"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -268,7 +317,10 @@ const words = [
             "uphold"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -284,7 +336,10 @@ const words = [
             "yield"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -300,7 +355,10 @@ const words = [
             "harmony"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -316,7 +374,10 @@ const words = [
             "validate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -332,7 +393,10 @@ const words = [
             "definitive"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -348,7 +412,10 @@ const words = [
             "obedience"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -364,7 +431,10 @@ const words = [
             "deteriorate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -380,7 +450,10 @@ const words = [
             "disapprove"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -396,7 +469,10 @@ const words = [
             "argue"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -412,7 +488,10 @@ const words = [
             "quiescent"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -428,7 +507,10 @@ const words = [
             "moving"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -444,7 +526,10 @@ const words = [
             "invoke"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -460,7 +545,10 @@ const words = [
             "use"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -476,7 +564,10 @@ const words = [
             "unambiguous"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -492,7 +583,10 @@ const words = [
             "looming"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -508,7 +602,10 @@ const words = [
             "inhibit"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -524,7 +621,10 @@ const words = [
             "tacit"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -538,7 +638,10 @@ const words = [
             "inflict",
             "compel"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -552,7 +655,10 @@ const words = [
             "detachment",
             "insensitivity"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -566,7 +672,10 @@ const words = [
             "predestined",
             "assured"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -580,7 +689,10 @@ const words = [
             "evoke",
             "summon"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -594,7 +706,10 @@ const words = [
             "incongruous",
             "sarcastic"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -608,7 +723,10 @@ const words = [
             "unconventional",
             "inventive"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -622,7 +740,10 @@ const words = [
             "ambiguous",
             "hidden"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -636,7 +757,10 @@ const words = [
             "archaic",
             "superseded"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -650,7 +774,10 @@ const words = [
             "burdensome",
             "repressive"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -664,7 +791,10 @@ const words = [
             "extensive",
             "pervading"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -678,7 +808,10 @@ const words = [
             "abundance",
             "occurrence"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -692,7 +825,10 @@ const words = [
             "famous",
             "leading"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -706,7 +842,10 @@ const words = [
             "evoke",
             "prompt"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -720,7 +859,10 @@ const words = [
             "requite",
             "exchange"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -734,7 +876,10 @@ const words = [
             "settle",
             "integrate"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -748,7 +893,10 @@ const words = [
             "invalidate",
             "debunk"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -762,7 +910,10 @@ const words = [
             "forsake",
             "repudiate"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -776,7 +927,10 @@ const words = [
             "subjugation",
             "control"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -790,7 +944,10 @@ const words = [
             "hold",
             "remember"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -804,7 +961,10 @@ const words = [
             "unconvinced",
             "dubious"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -818,7 +978,10 @@ const words = [
             "hypothesize",
             "surmise"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -832,7 +995,10 @@ const words = [
             "corroborate",
             "validate"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -846,7 +1012,10 @@ const words = [
             "nuanced",
             "indirect"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -860,7 +1029,10 @@ const words = [
             "reinforce",
             "complement"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -874,7 +1046,10 @@ const words = [
             "dubious",
             "uncertain"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -888,7 +1063,10 @@ const words = [
             "impair",
             "sabotage"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -902,7 +1080,10 @@ const words = [
             "accentuate",
             "reinforce"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -916,7 +1097,10 @@ const words = [
             "discreet",
             "unnoticeable"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -930,7 +1114,10 @@ const words = [
             "corroborate",
             "authenticate"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -944,7 +1131,10 @@ const words = [
             "believability",
             "plausibility"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
     
     {
@@ -958,7 +1148,10 @@ const words = [
             "functional",
             "achievable"
         ],
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -974,7 +1167,10 @@ const words = [
             "lower"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -990,7 +1186,10 @@ const words = [
             "weaken"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1006,7 +1205,10 @@ const words = [
             "carry off"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1022,7 +1224,10 @@ const words = [
             "leap"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1038,7 +1243,10 @@ const words = [
             "pandemonium"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1054,7 +1262,10 @@ const words = [
             "hue and cry"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1070,7 +1281,10 @@ const words = [
             "pastry"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1086,7 +1300,10 @@ const words = [
             "summon"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1102,7 +1319,10 @@ const words = [
             "usurpation"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1118,7 +1338,10 @@ const words = [
             "tame"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1134,7 +1357,10 @@ const words = [
             "serious"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1150,7 +1376,10 @@ const words = [
             "law"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1166,7 +1395,10 @@ const words = [
             "prowl"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1182,7 +1414,10 @@ const words = [
             "troubled"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1198,7 +1433,10 @@ const words = [
             "manic"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1214,7 +1452,10 @@ const words = [
             "slyness"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1230,7 +1471,10 @@ const words = [
             "strong"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1246,7 +1490,10 @@ const words = [
             "brazen"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1262,7 +1509,10 @@ const words = [
             "sealed"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1278,7 +1528,10 @@ const words = [
             "encroach"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1294,7 +1547,10 @@ const words = [
             "ruthless"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1310,7 +1566,10 @@ const words = [
             "pointless"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1326,7 +1585,10 @@ const words = [
             "perceptive"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1342,7 +1604,10 @@ const words = [
             "native"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1358,7 +1623,10 @@ const words = [
             "provincial"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1374,7 +1642,10 @@ const words = [
             "necessary"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1390,7 +1661,10 @@ const words = [
             "daring"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1406,7 +1680,10 @@ const words = [
             "thoughtful"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1422,7 +1699,10 @@ const words = [
             "announcement"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1438,7 +1718,10 @@ const words = [
             "stealing offense"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1454,7 +1737,10 @@ const words = [
             "pure"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
     
     {
@@ -1470,7 +1756,10 @@ const words = [
             "lusterous"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1486,7 +1775,10 @@ const words = [
             "many"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1502,7 +1794,10 @@ const words = [
             "smidgen"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1518,7 +1813,10 @@ const words = [
             "tangle"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1534,7 +1832,10 @@ const words = [
             "trough"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1550,7 +1851,10 @@ const words = [
             "noted-for-bad"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1566,7 +1870,10 @@ const words = [
             "starter"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1582,7 +1889,10 @@ const words = [
             "unclear"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1598,7 +1908,10 @@ const words = [
             "grand"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
         {
@@ -1614,7 +1927,10 @@ const words = [
             "lessen"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1630,7 +1946,10 @@ const words = [
             "instant"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1646,7 +1965,10 @@ const words = [
             "ideal"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1662,7 +1984,10 @@ const words = [
             "horrible"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1678,7 +2003,10 @@ const words = [
             "passable"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1694,7 +2022,10 @@ const words = [
             "unplanned"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1710,7 +2041,10 @@ const words = [
             "serve"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1726,7 +2060,10 @@ const words = [
             "faithfulness"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1742,7 +2079,10 @@ const words = [
             "concede"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1758,7 +2098,10 @@ const words = [
             "developed"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1774,7 +2117,10 @@ const words = [
             "change"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1790,7 +2136,10 @@ const words = [
             "talented"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1806,7 +2155,10 @@ const words = [
             "satisfactory"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1822,7 +2174,10 @@ const words = [
             "stick"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1838,7 +2193,10 @@ const words = [
             "regulate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1854,7 +2212,10 @@ const words = [
             "praise"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1870,7 +2231,10 @@ const words = [
             "profitable"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
         {
@@ -1886,7 +2250,10 @@ const words = [
             "onset"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1902,7 +2269,10 @@ const words = [
             "urge"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1918,7 +2288,10 @@ const words = [
             "compound"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1934,7 +2307,10 @@ const words = [
             "determined"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1950,7 +2326,10 @@ const words = [
             "mention"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1966,7 +2345,10 @@ const words = [
             "indefiniteness"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1982,7 +2364,10 @@ const words = [
             "doubt"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -1998,7 +2383,10 @@ const words = [
             "witty"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2014,7 +2402,10 @@ const words = [
             "mark"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2030,7 +2421,10 @@ const words = [
             "audacious"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2046,7 +2440,10 @@ const words = [
             "open"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2062,7 +2459,10 @@ const words = [
             "concurrence"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2078,7 +2478,10 @@ const words = [
             "efficient"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2094,7 +2497,10 @@ const words = [
             "form"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2110,7 +2516,10 @@ const words = [
             "suppress"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2126,7 +2535,10 @@ const words = [
             "unsettling"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2142,7 +2554,10 @@ const words = [
             "confused"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2158,7 +2573,10 @@ const words = [
             "staged"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2174,7 +2592,10 @@ const words = [
             "politely"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2190,7 +2611,10 @@ const words = [
             "dear"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
         {
@@ -2206,7 +2630,10 @@ const words = [
             "friction"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2222,7 +2649,10 @@ const words = [
             "depress"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2238,7 +2668,10 @@ const words = [
             "care"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2254,7 +2687,10 @@ const words = [
             "unsettling"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2270,7 +2706,10 @@ const words = [
             "unrelated"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2286,7 +2725,10 @@ const words = [
             "preoccupy"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2302,7 +2744,10 @@ const words = [
             "heterogeneous"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2318,7 +2763,10 @@ const words = [
             "determined"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2334,7 +2782,10 @@ const words = [
             "well-spoken"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2350,7 +2801,10 @@ const words = [
             "incorporate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2366,7 +2820,10 @@ const words = [
             "recall"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2382,7 +2839,10 @@ const words = [
             "devise"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2398,7 +2858,10 @@ const words = [
             "tackle"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2414,7 +2877,10 @@ const words = [
             "feature"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2430,7 +2896,10 @@ const words = [
             "stash"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2446,7 +2915,10 @@ const words = [
             "predict"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2462,7 +2934,10 @@ const words = [
             "resourceful"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2478,7 +2953,10 @@ const words = [
             "invulnerable"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2494,7 +2972,10 @@ const words = [
             "introduce"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
         {
@@ -2510,7 +2991,10 @@ const words = [
             "understood"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2526,7 +3010,10 @@ const words = [
             "encourage"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2542,7 +3029,10 @@ const words = [
             "insensitivity"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2558,7 +3048,10 @@ const words = [
             "spoil"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2574,7 +3067,10 @@ const words = [
             "sway"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2590,7 +3086,10 @@ const words = [
             "limit"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2606,7 +3105,10 @@ const words = [
             "survey"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
         {
@@ -2622,7 +3124,10 @@ const words = [
             "oblivious"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2638,7 +3143,10 @@ const words = [
             "comment"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2654,7 +3162,10 @@ const words = [
             "connect"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2670,7 +3181,10 @@ const words = [
             "engaging"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2686,7 +3200,10 @@ const words = [
             "develop"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2702,7 +3219,10 @@ const words = [
             "disprove"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2718,7 +3238,10 @@ const words = [
             "reflexively"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2734,7 +3257,10 @@ const words = [
             "insulate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2750,7 +3276,10 @@ const words = [
             "potential"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2766,7 +3295,10 @@ const words = [
             "contained"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2782,7 +3314,10 @@ const words = [
             "attainable"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2798,7 +3333,10 @@ const words = [
             "essential"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2814,7 +3352,10 @@ const words = [
             "replicate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2830,7 +3371,10 @@ const words = [
             "balanced"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2846,7 +3390,10 @@ const words = [
             "abandon"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2862,7 +3409,10 @@ const words = [
             "detachment"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2878,7 +3428,10 @@ const words = [
             "unprecedented"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2894,7 +3447,10 @@ const words = [
             "force"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2910,7 +3466,10 @@ const words = [
             "cryptic"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2926,7 +3485,10 @@ const words = [
             "aware"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2942,7 +3504,10 @@ const words = [
             "superseded"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2958,7 +3523,10 @@ const words = [
             "take"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2974,7 +3542,10 @@ const words = [
             "rarity"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -2990,7 +3561,10 @@ const words = [
             "unplanned"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3006,7 +3580,10 @@ const words = [
             "arrival"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3022,7 +3599,10 @@ const words = [
             "overpowered"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3038,7 +3618,10 @@ const words = [
             "foremost"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3054,7 +3637,10 @@ const words = [
             "deficiency"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3070,7 +3656,10 @@ const words = [
             "relentless"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3086,7 +3675,10 @@ const words = [
             "suggest"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3102,7 +3694,10 @@ const words = [
             "extol"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3118,7 +3713,10 @@ const words = [
             "estimate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
         {
@@ -3134,7 +3732,10 @@ const words = [
             "retain"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3150,7 +3751,10 @@ const words = [
             "win"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3166,7 +3770,10 @@ const words = [
             "state"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3182,7 +3789,10 @@ const words = [
             "yield"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3198,7 +3808,10 @@ const words = [
             "stretch"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3214,7 +3827,10 @@ const words = [
             "sum"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3230,7 +3846,10 @@ const words = [
             "disagreement"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3246,7 +3865,10 @@ const words = [
             "multiply"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3262,7 +3884,10 @@ const words = [
             "scarcely"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3278,7 +3903,10 @@ const words = [
             "vindicate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3294,7 +3922,10 @@ const words = [
             "deny"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3310,7 +3941,10 @@ const words = [
             "amenable"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3326,7 +3960,10 @@ const words = [
             "repair"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3342,7 +3979,10 @@ const words = [
             "repair"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3358,7 +3998,10 @@ const words = [
             "rebut"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3374,7 +4017,10 @@ const words = [
             "reposition"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3390,7 +4036,10 @@ const words = [
             "control"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3406,7 +4055,10 @@ const words = [
             "pause"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3422,7 +4074,10 @@ const words = [
             "conclude"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3438,7 +4093,10 @@ const words = [
             "recover"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3454,7 +4112,10 @@ const words = [
             "remember"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3470,7 +4131,10 @@ const words = [
             "energizing"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3486,7 +4150,10 @@ const words = [
             "ratify"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3502,7 +4169,10 @@ const words = [
             "disrespect"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3518,7 +4188,10 @@ const words = [
             "emulate"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3534,7 +4207,10 @@ const words = [
             "candor"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3550,7 +4226,10 @@ const words = [
             "stretch"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3566,7 +4245,10 @@ const words = [
             "fraudulent"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3582,7 +4264,10 @@ const words = [
             "pronounced"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     },
 
     {
@@ -3598,7 +4283,10 @@ const words = [
             "indirect"
         ],
 
-        status: "notAttempted"
+        status: "notAttempted",
+
+        attempts: 0,
+        correctAnswers: 0
     }
 
 ];
