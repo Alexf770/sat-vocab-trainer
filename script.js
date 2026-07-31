@@ -3,6 +3,7 @@ let timeLeft = 15;
 let timerInterval;
 let currentIndex = 0;
 let submitted = false;
+let streak = 0;
 
 // DOM elements for score tracking
 const correctDisplay =
@@ -13,6 +14,9 @@ const learningDisplay =
 
 const notAttemptedDisplay =
     document.getElementById("notAttemptedCount");
+
+const streakDisplay =
+    document.getElementById("streakCount");
 
 // DOM elements for the vocabulary card
 const definition = document.getElementById("definition");
@@ -80,6 +84,28 @@ function getAccuracy(word) {
     );
 }
 
+// Determine the mastery level of a vocabulary word
+function getMastery(word) {
+
+    const accuracy = getAccuracy(word);
+
+    if (word.attempts === 0) {
+        return "Not Attempted";
+    }
+
+    else if (accuracy >= 90) {
+        return "Mastered";
+    }
+
+    else if (accuracy >= 60) {
+        return "Learning";
+    }
+
+    else {
+        return "Needs Practice";
+    }
+}
+
 
 // Display the current word's definition and sentence
 function loadWord() {
@@ -139,6 +165,11 @@ function showReviewWords() {
                 <p>
                     <strong>Accuracy:</strong>
                     ${getAccuracy(word)}%
+                </p>
+
+                <p>
+                    <strong>Mastery:</strong>
+                    ${getMastery(word)}
                 </p>
 
             </div>
@@ -254,6 +285,14 @@ document.getElementById("submitButton")
 
         words[currentIndex].correctAnswers++;
 
+        streak++;
+        streakDisplay.textContent = streak;
+
+        if (streak === 5) {
+            result.textContent =
+                "🔥 5 word streak! Keep going!";
+        }
+
     } 
     
     else if (
@@ -279,6 +318,9 @@ document.getElementById("submitButton")
 
         words[currentIndex].status =
             "learning";
+        
+        streak = 0;
+        streakDisplay.textContent = streak;
     }
 
     updateScoreDisplay();
