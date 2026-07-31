@@ -68,6 +68,18 @@ function updateScoreDisplay() {
     notAttemptedDisplay.textContent = notAttempted;
 }
 
+// Calculate the accuracy percentage of a vocabulary word
+function getAccuracy(word) {
+
+    if (word.attempts === 0) {
+        return 0;
+    }
+
+    return Math.round(
+        (word.correctAnswers / word.attempts) * 100
+    );
+}
+
 
 // Display the current word's definition and sentence
 function loadWord() {
@@ -118,6 +130,17 @@ function showReviewWords() {
                     <strong>Sentence:</strong>
                     ${word.sentence}
                 </p>
+
+                <p>
+                    <strong>Attempts:</strong>
+                    ${word.attempts}
+                </p>
+
+                <p>
+                    <strong>Accuracy:</strong>
+                    ${getAccuracy(word)}%
+                </p>
+
             </div>
        `;
     }
@@ -211,7 +234,7 @@ document.getElementById("submitButton")
 
     submitted = true;
     clearInterval(timerInterval);
-    
+
     words[currentIndex].attempts++;
 
     const userAnswer =
