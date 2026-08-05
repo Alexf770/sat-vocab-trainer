@@ -5,6 +5,9 @@ let currentIndex = 0;
 let submitted = false;
 let streak = 0;
 
+let answerTimes = [];
+let currentStartTime;
+
 // DOM elements for score tracking
 const correctDisplay =
     document.getElementById("correctCount");
@@ -15,8 +18,23 @@ const learningDisplay =
 const notAttemptedDisplay =
     document.getElementById("notAttemptedCount");
 
+const averageTimeDisplay =
+    document.getElementById("averageTime");
+
+const fastestTimeDisplay =
+    document.getElementById("fastestTime");
+
 const streakDisplay =
     document.getElementById("streakCount");
+
+const progressPercent =
+    document.getElementById("progressPercent");
+
+const progressBar =
+    document.getElementById("progressBar");
+
+const masteredDisplay =
+    document.getElementById("masteredCount");
 
 // DOM elements for the vocabulary card
 const definition = document.getElementById("definition");
@@ -70,6 +88,33 @@ function updateScoreDisplay() {
     correctDisplay.textContent = correct;
     learningDisplay.textContent = learning;
     notAttemptedDisplay.textContent = notAttempted;
+
+    averageTimeDisplay.textContent =
+        getAverageTime();
+    
+    fastestTimeDisplay.textContent =
+        getFastestTime();
+
+    const progress =
+        getProgressPercentage();
+    
+    progressPercent.textContent =
+        progress;
+    
+    progressBar.style.width =
+        progress + "%";
+
+    // Count mastered words
+    let mastered = 0;
+
+    for (let word of words) {
+        
+        if(getMastery(word) === "Mastered") {
+            mastered++;
+        }
+    }
+
+    masteredDisplay.textContent = mastered;
 }
 
 // Calculate the accuracy percentage of a vocabulary word
@@ -82,6 +127,51 @@ function getAccuracy(word) {
     return Math.round(
         (word.correctAnswers / word.attempts) * 100
     );
+}
+
+// Calculate average answer
+function getAverageTime() {
+
+    if (answerTimes.length === 0) {
+        return 0;
+    }
+
+    const totalTime =
+        answerTimes.reduce(
+            (sum, time) => sum + time,
+            0
+        );
+    
+    return Math.round(
+        totalTime / answerTimes.length
+    );
+}
+
+// Calculate vocabulary mastery progress
+function getProgressPercentage() {
+
+    let masteredWords = 0;
+
+    for (let word of words) {
+
+        if (getMastery(word) === "Mastered") {
+            masteredWords++;
+        }
+    }
+
+    return Math.round(
+        (masteredWords / words.length) * 100
+    );
+}
+
+// Find the fastest answer time
+function getFastestTime() {
+
+    if (answerTimes.length === 0) {
+        return 0;
+    }
+
+    return Math.min(...answerTimes);
 }
 
 // Determine the mastery level of a vocabulary word
@@ -117,6 +207,8 @@ function loadWord() {
 
     answerInput.value = "";
     result.textContent = "";
+
+    currentStartTime = Date.now();
 
     startTimer();
 }
@@ -186,6 +278,16 @@ function saveProgress() {
         "satWords",
         JSON.stringify(words)
     );
+
+    localStorage.setItem(
+        "answerTimes",
+        JSON.stringify(answerTimes)
+    );
+
+    localStorage.setItem(
+        "streak",
+        JSON.stringify(streak)
+    );
 }
 
 // Load saved progress from local storage
@@ -213,7 +315,29 @@ function loadProgress() {
 
             currentWord.status =
                 savedWords.status;
+            
+            currentWord.attempts =
+                savedWords.attempts;
+            
+            currentWord.correctAnswers =
+                savedWords.correctAnswers;
         }
+    }
+
+    const savedTimes =
+        localStorage.getItem("answerTimes");
+    
+    if (savedTimes) {
+        answerTimes =
+            JSON.parse(savedTimes);
+    }
+
+    const savedStreak =
+        localStorage.getItem("streak");
+    
+    if (savedStreak) {
+        streak = JSON.parse(savedStreak);
+        streakDisplay.textContent = streak;
     }
 }
 
@@ -266,6 +390,13 @@ document.getElementById("submitButton")
     submitted = true;
     clearInterval(timerInterval);
 
+    const answerTime = 
+        Math.floor(
+            (Date.now() - currentStartTime) / 1000
+        );
+
+    answerTimes.push(answerTime);
+
     words[currentIndex].attempts++;
 
     const userAnswer =
@@ -277,7 +408,9 @@ document.getElementById("submitButton")
     if (userAnswer === correctAnswer) {
 
         result.textContent =
-            "Correct!";
+            "Correct! You answered in "
+            + answerTime
+            + " seconds.";
         result.style.color = "darkgreen";
 
         words[currentIndex].status =
@@ -288,9 +421,9 @@ document.getElementById("submitButton")
         streak++;
         streakDisplay.textContent = streak;
 
-        if (streak === 5) {
+        if (streak % 5 === 0) {
             result.textContent =
-                "🔥 5 word streak! Keep going!";
+                "🔥 " + streak + " word streak! Keep going!";
         }
 
     } 
@@ -300,27 +433,34 @@ document.getElementById("submitButton")
     ) {
 
         result.textContent =
-            "Very close! The SAT word was " +
-            words[currentIndex].word;
+            "Very close! You answered in " 
+            + answerTime
+            + " seconds. The SAT word was "
+            + words[currentIndex].word;
         result.style.color = "orange";
-
-        words[currentIndex].status =
-            "learning";
-
-    } 
-    
-    else {
-
-        result.textContent =
-            "Incorrect. The word was " +
-            words[currentIndex].word;
-        result.style.color = "red";
 
         words[currentIndex].status =
             "learning";
         
         streak = 0;
         streakDisplay.textContent = streak;
+
+    } 
+    
+    else {
+
+        result.textContent =
+            "Incorrect. You answered in "
+            + answerTime
+            + " seconds. The word was "
+            + words[currentIndex].word; 
+        result.style.color = "red";
+
+        streak = 0;
+        streakDisplay.textContent = streak;
+
+        words[currentIndex].status =
+            "learning";
     }
 
     updateScoreDisplay();
